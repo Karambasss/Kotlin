@@ -31,6 +31,7 @@ class SugarStorage {
 
     fun setVolume(v: Int){
      if (v >= 0) this.volume = v
+     else this.volume = 0
     }
 
     fun getVolume() : Int{

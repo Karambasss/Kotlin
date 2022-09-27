@@ -2,7 +2,9 @@ fun main() {
     println("Первый способ инициализации")
 
     var sugarStorage = SugarStorage()
-    sugarStorage.setVolume(50)
+    sugarStorage.setVolume(-50)
+    println("Ваш баланс: ${sugarStorage.getVolume()}")
+    sugarStorage.setVolume(100)
     println("Ваш баланс: ${sugarStorage.getVolume()}")
     sugarStorage.decreaseSugar(100)
     sugarStorage.increaseSugar(200)
@@ -16,7 +18,7 @@ fun main() {
     println("Версия класса: ${sugarStorage2.getVersion()}")
 
 
-    println("Инициализация") // инициализация с проверкой - в данном случае условие if (volume < 0) выдаст нам false - присвоит свойству volume значение, введенное пользователем: 100
+    println("Третий способ инициализации") // инициализация с проверкой - в данном случае условие if (volume < 0) выдаст нам false - присвоит свойству volume значение, введенное пользователем: 100
     sugarStorage2 = SugarStorage2(100)
     println("Ваш баланс: ${sugarStorage2.volume}")
     sugarStorage2.decreaseSugar(100)
