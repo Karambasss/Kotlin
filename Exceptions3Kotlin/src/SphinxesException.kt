@@ -1,0 +1,3 @@
+class SphinxesException : Exception() {
+
+}
