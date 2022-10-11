@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun clickTxt(v : View){
-        clicker+=1
+        clicker++
         textView.text = clicker.toString()
     }
 }
