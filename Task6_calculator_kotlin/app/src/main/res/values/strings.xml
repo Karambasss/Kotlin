@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt1_name">Введите x:</string>
+    <string name="txt2_name">Введите y:</string>
+    <string name="btn1_name">+</string>
+    <string name="btn2_name">-</string>
+    <string name="btn3_name">*</string>
+    <string name="btn4_name">/</string>
+    <string name="result_name">0</string>
+</resources>
