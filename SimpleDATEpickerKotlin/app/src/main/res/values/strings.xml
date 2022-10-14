@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChangeDateAndTime</string>
+    <string name="btn_name">Изменить дату</string>
+    <string name="btn2_name">Изменить время</string>
+    <string name="txt_name">Текущая дата:</string>
+    <string name="txt2_name">Текущее время:</string>
+</resources>
