@@ -28,7 +28,7 @@
 
 ![image](https://user-images.githubusercontent.com/55315647/195922186-d0c96216-5335-45bd-99af-a6da36c9560c.png)
 
-Можно выбрать утреннее время, нажав вместо цифру 7.
+Можно выбрать утреннее время, нажав на верхние цифры, к примеру, цифру 7.
 
 ![image](https://user-images.githubusercontent.com/55315647/195922498-89f3750c-125f-41d6-974c-25a933444b7d.png)
 
