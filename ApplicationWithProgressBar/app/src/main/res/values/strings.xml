@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ApplicationWithProgressBar</string>
+    <string name="txt_name">Progress process:</string>
+    <string name="btn_name">Start</string>
+</resources>
