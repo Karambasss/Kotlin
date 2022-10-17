@@ -18,4 +18,10 @@ Ps: там ведется подсчет кол-ва времени, пройд�
 
 ![image](https://user-images.githubusercontent.com/55315647/195978778-597f4d92-e0eb-4ab8-b2bf-af027465874c.png)
 
+# Примеры работы: 
+
+[ApplicationWithProgressBar-–-MainActivity.kt-_ApplicationWithProgressBar.app_1.webm](https://user-images.githubusercontent.com/55315647/196257876-9808b353-6440-4c23-aa83-6f26ef7335fa.webm)
+
+
+[ApplicationWithProgressBar-–-MainActivity.kt-_ApplicationWithProgressBar.app.webm](https://user-images.githubusercontent.com/55315647/196257629-7d287812-206d-488e-a7f0-ade43794fe3a.webm)
 
