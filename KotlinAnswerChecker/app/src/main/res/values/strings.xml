@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt_name">Выберите, какая форма у Земли?</string>
+    <string name="answer1_name">Диск</string>
+    <string name="answer2_name">Шар</string>
+    <string name="answer3_name">Эллипсоид</string>
+    <string name="answer4_name">Куб</string>
+    <string name="btn_name">Ответить</string>
+</resources>
