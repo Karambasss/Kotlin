@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="result_name">Result:</string>
+    <string name="btn_name">Convert</string>
+</resources>
