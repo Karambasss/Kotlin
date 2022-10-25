@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="first_name">MainActivity</string>
+    <string name="second_name">SecondActivity</string>
+    <string name="third_name">ThirdActivity</string>
+    <string name="prev_btn_name">Prev</string>
+    <string name="next_btn_name">Next</string>
+</resources>
