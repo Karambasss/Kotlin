@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ActivitiesKotlin</string>
+    <string name="lbl_name">Привет, пользователь!</string>
+    <string name="input_name">Перейти</string>
+    <string name="btn2_name">Заполнить</string>
+</resources>
