@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             arrayAdapter.notifyDataSetChanged()
 
 
-//            my_list.add(my_list[listVIEW.checkedItemPositions])
+//            my_list.add(my_list[listVIEW.checkedItemPosition])
 //            arrayAdapter.notifyDataSetChanged()
         }
     }
