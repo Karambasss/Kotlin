@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListViewKotlin</string>
+    <string name="txtName">Working hard with ListView</string>
+    <string name="btnName">Add</string>
+</resources>
