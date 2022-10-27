@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                     endPoint = seekBar.progress
 
                     if (endPoint != 0){
-                        myList.addAll(MutableList(endPoint) { it * it })
+                        myList.addAll(MutableList(endPoint) { (it+1) * (it + 1) })
                         arrayAdapter.notifyDataSetChanged()
                     }
                 }
