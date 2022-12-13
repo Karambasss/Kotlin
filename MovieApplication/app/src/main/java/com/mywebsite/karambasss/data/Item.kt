@@ -1,4 +1,7 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.data
+
+import com.mywebsite.karambasss.data.Country
+import com.mywebsite.karambasss.data.Genre
 
 data class Item(
     val countries: List<Country>,

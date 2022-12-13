@@ -1,18 +1,18 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.view.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.mywebsite.karambasss.R
+import com.mywebsite.karambasss.data.Item
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_registration.*
 
-class CustomAdapter(private val mList: List<Item>?, val mItemClickListener : ItemClickListener) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+class CustomAdapter(private val mList: List<Item>?, val mItemClickListener: ItemClickListener) :
+    RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
     // Создаем функциональный интерфейс для обработки нажатия на элемент адаптера
-    interface ItemClickListener{
+    interface ItemClickListener {
         fun onItemClick(id: Int)
     }
 
@@ -32,7 +32,7 @@ class CustomAdapter(private val mList: List<Item>?, val mItemClickListener : Ite
         val ItemsViewModel = mList?.get(position)
 
         // sets the image to the imageview from our itemHolder class
-        Picasso.get().load(ItemsViewModel?.posterUrl).resize(700,850).into(holder.imageView)
+        Picasso.get().load(ItemsViewModel?.posterUrl).resize(700, 850).into(holder.imageView)
     }
 
     // return the number of the items in the list
@@ -43,9 +43,14 @@ class CustomAdapter(private val mList: List<Item>?, val mItemClickListener : Ite
     // Holds the views for adding it to image and text
     inner class ViewHolder(ItemView: View) : RecyclerView.ViewHolder(ItemView) {
         val imageView: ImageView = itemView.findViewById(R.id.imageview)
+
         init {
             ItemView.setOnClickListener {
-                mList?.get(bindingAdapterPosition)?.kinopoiskId?.let { mItemClickListener.onItemClick(it)  } // получение id после нажатия на эл-т recyclerView
+                mList?.get(bindingAdapterPosition)?.kinopoiskId?.let {
+                    mItemClickListener.onItemClick(
+                        it
+                    )
+                } // получение id после нажатия на эл-т recyclerView
             }
         }
     }

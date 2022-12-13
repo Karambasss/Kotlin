@@ -1,7 +1,8 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mywebsite.karambasss.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_registration.*
 

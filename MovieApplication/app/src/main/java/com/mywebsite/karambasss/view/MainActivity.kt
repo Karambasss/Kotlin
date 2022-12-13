@@ -1,12 +1,9 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
-import android.util.Log
 import android.widget.Toast
-import com.google.firebase.database.ktx.database
-import com.google.firebase.ktx.Firebase
+import com.mywebsite.karambasss.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

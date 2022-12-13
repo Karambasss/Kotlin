@@ -1,5 +1,7 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.model.apis
 
+import com.mywebsite.karambasss.data.MoviesData
+import com.mywebsite.karambasss.data.OneMovieData
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

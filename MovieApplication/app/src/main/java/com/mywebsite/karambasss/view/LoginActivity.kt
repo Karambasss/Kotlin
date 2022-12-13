@@ -1,9 +1,9 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mywebsite.karambasss.view.MoviesActivity
+import com.mywebsite.karambasss.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {

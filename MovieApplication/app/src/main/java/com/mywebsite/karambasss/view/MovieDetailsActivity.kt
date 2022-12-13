@@ -1,10 +1,13 @@
-package com.mywebsite.karambasss
+package com.mywebsite.karambasss.view
 
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.mywebsite.karambasss.model.apis.ApiInterface
+import com.mywebsite.karambasss.data.OneMovieData
+import com.mywebsite.karambasss.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_movie_details.*
 import retrofit2.Call
