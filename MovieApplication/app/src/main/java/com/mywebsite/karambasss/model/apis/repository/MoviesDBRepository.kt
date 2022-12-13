@@ -1,4 +1,4 @@
-package com.mywebsite.karambasss.repository
+package com.mywebsite.karambasss.model.apis.repository
 
 interface MoviesDBRepository {
 
