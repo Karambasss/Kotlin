@@ -29,10 +29,10 @@ class CustomAdapter(private val mList: List<Item>?, val mItemClickListener: Item
     // binds the list items to a view
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        val ItemsViewModel = mList?.get(position)
+        val itemsViewModel = mList?.get(position)
 
         // sets the image to the imageview from our itemHolder class
-        Picasso.get().load(ItemsViewModel?.posterUrl).resize(700, 850).into(holder.imageView)
+        Picasso.get().load(itemsViewModel?.posterUrl).resize(700, 850).into(holder.imageView)
     }
 
     // return the number of the items in the list

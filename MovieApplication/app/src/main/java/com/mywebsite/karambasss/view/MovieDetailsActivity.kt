@@ -41,7 +41,7 @@ class MovieDetailsActivity : AppCompatActivity() {
                     activity_movie_details_overviewText.text = body?.description
                 }
                 override fun onFailure(call: Call<OneMovieData>, t: Throwable) {
-                    Log.d("testLogs", "on Failure ${t?.message}")
+                    Log.d("testLogs", "on Failure ${t.message}")
                 }
             })
         }
