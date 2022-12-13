@@ -1,4 +1,4 @@
-package com.mywebsite.karambasss.model.apis.repository
+package com.mywebsite.karambasss.model.repository
 
 class MoviesDBRepositoryImpl : MoviesDBRepository {
     override fun getMovies(): String {
