@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieApplication</string>
+    <string name="main_activity_email_input_name">Email...</string>
+    <string name="main_activity_password_input_name">Password...</string>
+    <string name="main_activity_register_button_name">Register</string>
+    <string name="main_activity_textView_loginTip_name">Already registered. Login Me!</string>
+    <string name="login_activity_login_button_name">Login</string>
+    <string name="label_movies">Название фильма</string>
+    <string name="overview">Обзор</string>
+    <string name="release_text">Дата релиза : </string>
+    <string name="test_date_name">23 июня 2001</string>
+    <string name="score">Рейтинг : </string>
+    <string name="test_score_name">7.9</string>
+    <string name="test_overview_text">ОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписание</string>
+</resources>

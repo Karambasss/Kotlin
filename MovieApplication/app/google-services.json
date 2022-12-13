@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "112510695408",
+    "firebase_url": "https://movieapplication-becb3-default-rtdb.firebaseio.com",
+    "project_id": "movieapplication-becb3",
+    "storage_bucket": "movieapplication-becb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112510695408:android:a4fb85edbb10c815f30f35",
+        "android_client_info": {
+          "package_name": "com.mywebsite.karambasss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112510695408-tg654cvvh69bjssd8j3paebui4o9s5sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8vcu9mKjh-wR-VQx52LwaET-lJXA7zJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112510695408-tg654cvvh69bjssd8j3paebui4o9s5sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
