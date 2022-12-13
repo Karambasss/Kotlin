@@ -1,8 +1,5 @@
 package com.mywebsite.karambasss.data
 
-import com.mywebsite.karambasss.data.CountryX
-import com.mywebsite.karambasss.data.GenreX
-
 data class OneMovieData(
     val completed: Boolean,
     val countries: List<CountryX>,
