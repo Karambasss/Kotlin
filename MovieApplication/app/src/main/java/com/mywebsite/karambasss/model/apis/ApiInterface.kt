@@ -28,7 +28,7 @@ interface ApiInterface {
     // удаленный доступ к коду
     companion object {
         // url к чему делаем запрос
-        var BASE_URL = "https://kinopoiskapiunofficial.tech/" // https://kinopoiskapiunofficial.tech/
+        private var BASE_URL = "https://kinopoiskapiunofficial.tech/" // https://kinopoiskapiunofficial.tech/
 
         // инициализация самого retrofit builder
         fun create() : ApiInterface {
