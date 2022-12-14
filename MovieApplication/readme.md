@@ -16,3 +16,5 @@
 </br>
 
 ## Пример работы приложения
+[MovieApplication-–-MovieDetailsActivity.kt-_MovieApplication.app.webm](https://user-images.githubusercontent.com/55315647/207584169-91f99b92-5ad3-471d-9721-6cd4e9813ba5.webm)
+
