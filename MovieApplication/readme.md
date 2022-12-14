@@ -9,7 +9,7 @@
 - ❗ Работа с актуальными компонентами Android: RecyclerView, LiveData, и тп. ❗
 
 ### Библиотеки
-<img align="left" alt="Picasso" width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+<img align="left" alt="Picasso" width="60px" src="https://files.betamax.raywenderlich.com/attachments/collections/232/f4db5a7c-3245-4578-92ea-537867ea583e.png" />
 <img align="left" alt="Retrofit2" width="80px" height="70px" src="https://miro.medium.com/max/1024/1*Ht6PyyFTAqDZYNS60IkUOw.png" />
 </br>
 </br>
