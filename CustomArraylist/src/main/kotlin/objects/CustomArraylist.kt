@@ -72,7 +72,10 @@ class CustomArraylist(private var capacity : Int = 10) {
         }
         else{
             val formattedStr = data.joinToString(limit = currentIndex)
-            return formattedStr.subSequence(0, formattedStr.lastIndex-4).toString()
+            if (formattedStr.last() == '.'){
+                return formattedStr.subSequence(0, formattedStr.lastIndex-4).toString()
+            }
+            return formattedStr
         }
     }
 }
